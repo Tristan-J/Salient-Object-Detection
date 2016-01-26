@@ -1,0 +1,12 @@
+# Salient-Object-Detection/MIT300
+-    FROM: Tilke Judd, Fredo Durand, Antonio Torralba. A Benchmark of Computational Models of Saliency to Predict Human Fixations [MIT tech report 2012]
+-    DESCRIPTION: This was the first data set with held-out human eye movements, and is used as a benchmark test set
+-    Suffix:
+    -    none: origin picture
+    -    _lineSep: Indoor Multiple Saliency Optimization with Line Segments(This method)
+    -    _bgProb: background probability weight
+    -    _wCtr/_wCtr_Optimized: Saliency Optimization from Robust Background Detection(CVPR 2014)
+    -    _SF*: saliency filter
+    -    _GS: geodesic saliency
+    -    _HS: hierarchical saliency
+    -    _MR*: manifold ranking
